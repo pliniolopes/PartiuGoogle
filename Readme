@@ -1,9 +1,12 @@
 #Projeto final do curso de programação em Python para jornalista do Knight Center
 
-O arquivo "Raspar Bens no TSE - OFICIAL" faz uma requisição no site do TSE, baixa os arquivos com os bens do ano selecionado,
-converter pra csv, junta duas planilhas de acordo com um código comum, filtra elas com pandas e salva em um novo csv apenas os bens
+Os arquivos "Raspar Bens no TSE - OFICIAL" fazem uma requisição no site do TSE, baixam os arquivos com os bens do ano selecionado,
+convertem pra csv, juntam duas planilhas de acordo com um código comum, filtram elas com pandas e salvam em um novo csv apenas os bens
 dos candidatos que você escolheu baseado em: ANO, SITUAÇÃO, CIDADE E ESTADO.
 
 É só rodar o programa que ele faz os downloads e a análise automaticamente.
+
+São dois códigos diferentes: um pras eleições de 2008, 2012 e 2016 e outro pras eleições de 2006, 2010 E 2014. Isso foi necessário porque
+alguns detalhes mudam de tipo de eleição pra tipo de eleição.
 
 ***ATENÇÃO: Ficar de olho nos cargos que tem votação em cada ano eleitoral. Eles mudam. Conferir antes de usar a raspagem***
